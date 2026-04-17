@@ -403,7 +403,7 @@ chartDefs['202601'] = [
 
   <div class="fl-panel"><h3 class="ph">Flags &amp; Alerts</h3><div class="fl fl-red"><b>🚨 Not-Booked Rate: 44.9% (53 of 118 calls) — Flagged to AM</b><p>53 answered calls did not convert to bookings. Exceeds the 10–20% threshold. AM to review the Not Booked tab below and follow up on recoverable calls.</p></div>
 <div class="fl fl-green"><b>✅ Unanswered Calls (30s+): 0 — No Flag</b><p>All calls were answered or abandoned before 30 seconds. No coverage gaps detected.</p></div>
-<div class="fl fl-org"><b>🕐 Tech Not Same-Day Available: 3 calls — Flagged to Specialist</b><p>Callers were offered future appointments instead of same-day service. Dates offered included: <b>Tomorrow, tomorrow, Monday</b>. Specialist to task to AM in real time for follow-up and scheduling coordination.</p></div>
+<div class="fl fl-org"><b>🕐 Tech Not Same-Day Available: 3 calls — Flagged to Specialist</b><p>Callers were offered future appointments instead of same-day service. Dates offered included: <b>tomorrow, Monday, Tomorrow</b>. Specialist to task to AM in real time for follow-up and scheduling coordination.</p></div>
 <div class="fl fl-purple"><b>📋 Out-of-Scope Calls: 6</b><p>Breakdown: 5 Wrong Number · 1 Out of Service Area. Review LSA targeting (service categories, geographic radius) to reduce wasted spend on non-ideal callers.</p></div></div>
 
   <div class="cgrid">
@@ -667,7 +667,7 @@ chartDefs['202602'] = [
 
   <div class="fl-panel"><h3 class="ph">Flags &amp; Alerts</h3><div class="fl fl-red"><b>🚨 Not-Booked Rate: 38.1% (103 of 270 calls) — Flagged to AM</b><p>103 answered calls did not convert to bookings. Exceeds the 10–20% threshold. AM to review the Not Booked tab below and follow up on recoverable calls.</p></div>
 <div class="fl fl-green"><b>✅ Unanswered Calls (30s+): 0 — No Flag</b><p>All calls were answered or abandoned before 30 seconds. No coverage gaps detected.</p></div>
-<div class="fl fl-org"><b>🕐 Tech Not Same-Day Available: 7 calls — Flagged to Specialist</b><p>Callers were offered future appointments instead of same-day service. Dates offered included: <b>tomorrow, Wednesday, Monday</b>. Specialist to task to AM in real time for follow-up and scheduling coordination.</p></div>
+<div class="fl fl-org"><b>🕐 Tech Not Same-Day Available: 7 calls — Flagged to Specialist</b><p>Callers were offered future appointments instead of same-day service. Dates offered included: <b>tomorrow, Monday, Wednesday</b>. Specialist to task to AM in real time for follow-up and scheduling coordination.</p></div>
 <div class="fl fl-purple"><b>📋 Out-of-Scope Calls: 13</b><p>Breakdown: 8 Wrong Number · 3 Out of Service Area · 2 Out of Scope. Review LSA targeting (service categories, geographic radius) to reduce wasted spend on non-ideal callers.</p></div></div>
 
   <div class="cgrid">
@@ -1148,7 +1148,7 @@ chartDefs['202603'] = [
 
   <div class="fl-panel"><h3 class="ph">Flags &amp; Alerts</h3><div class="fl fl-red"><b>🚨 Not-Booked Rate: 46.8% (51 of 109 calls) — Flagged to AM</b><p>51 answered calls did not convert to bookings. Exceeds the 10–20% threshold. AM to review the Not Booked tab below and follow up on recoverable calls.</p></div>
 <div class="fl fl-green"><b>✅ Unanswered Calls (30s+): 0 — No Flag</b><p>All calls were answered or abandoned before 30 seconds. No coverage gaps detected.</p></div>
-<div class="fl fl-org"><b>🕐 Tech Not Same-Day Available: 5 calls — Flagged to Specialist</b><p>Callers were offered future appointments instead of same-day service. Dates offered included: <b>Saturday, tomorrow, Tuesday, Monday</b>. Specialist to task to AM in real time for follow-up and scheduling coordination.</p></div>
+<div class="fl fl-org"><b>🕐 Tech Not Same-Day Available: 5 calls — Flagged to Specialist</b><p>Callers were offered future appointments instead of same-day service. Dates offered included: <b>tomorrow, Tuesday, Monday, Saturday</b>. Specialist to task to AM in real time for follow-up and scheduling coordination.</p></div>
 <div class="fl fl-red"><b>⚑ CSR Referred Another Company: 1 instance(s) — Flagged to AM</b><p>CSR(s) Stephen directed caller(s) to a competitor or outside service. To be addressed in CSR coaching. See Flags tab for call details.</p></div>
 <div class="fl fl-purple"><b>📋 Out-of-Scope Calls: 3</b><p>Breakdown: 3 Wrong Number. Review LSA targeting (service categories, geographic radius) to reduce wasted spend on non-ideal callers.</p></div></div>
 
@@ -1357,10 +1357,7 @@ chartDefs['202604'] = [
 <footer class="rf">Gold Star Plumbing &amp; Drain · LSA Report · Jan–Apr 2026 · Source: CallRail (Google Local Services Ads) · Real Time Marketing</footer>
 
 <script>
-// Chart lazy-init registry (populated by inline <script> blocks in each page)
-var chartDefs  = {};   // id -> array of chart configs
-var chartDone  = {};   // id -> bool
-var curTabs    = {};
+// chartDefs, chartDone, curTabs declared in <head>
 
 function initCharts(id) {
   if (chartDone[id] || !chartDefs[id]) return;
