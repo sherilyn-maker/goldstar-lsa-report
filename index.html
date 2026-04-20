@@ -75,6 +75,7 @@ tbody tr:last-child td{border-bottom:none}
 .tag-orange{background:#ffedd5;color:#9a3412}
 .tag-gray{background:#f1f5f9;color:#475569}
 .tag-gold{background:#fef3c7;color:#92400e}
+.tag-purple{background:#ede9fe;color:#5b21b6}
 
 /* ── BOXES ── */
 .box{border-radius:12px;padding:20px;margin-bottom:20px}
@@ -2577,188 +2578,6 @@ tbody tr:last-child td{border-bottom:none}
     </div>
   </div>
 
-</div>
-
-<!-- ═══════════════════════════════════════════════
-     CALLRAIL TAB
-═══════════════════════════════════════════════ -->
-<div class="tab-pane" id="tab-callrail">
-
-  <div class="section-header">
-    <h2>CallRail — Call Tracking &amp; Attribution</h2>
-    <p>All inbound calls · Jan 1 – Apr 20, 2026 · Gold Star Plumbing &amp; Drain</p>
-  </div>
-
-  <!-- KPI Row -->
-  <div class="kpi-row kpi-row-5">
-    <div class="kpi-card kpi-blue">
-      <div class="kpi-label">Total Calls</div>
-      <div class="kpi-value">2,358</div>
-      <div class="kpi-sub">All sources · Jan–Apr 2026</div>
-      <div class="kpi-delta delta-good">↑ +233% vs Jan alone</div>
-    </div>
-    <div class="kpi-card kpi-green">
-      <div class="kpi-label">Answered</div>
-      <div class="kpi-value">2,260</div>
-      <div class="kpi-sub">95.8% answer rate</div>
-      <div class="kpi-delta delta-good">↑ Industry-leading</div>
-    </div>
-    <div class="kpi-card kpi-orange">
-      <div class="kpi-label">New Callers</div>
-      <div class="kpi-value">1,671</div>
-      <div class="kpi-sub">70.9% first-time callers</div>
-      <div class="kpi-delta delta-good">↑ Strong new lead flow</div>
-    </div>
-    <div class="kpi-card kpi-gold">
-      <div class="kpi-label">LSA Calls</div>
-      <div class="kpi-value">631</div>
-      <div class="kpi-sub">26.8% of total · #2 source</div>
-      <div class="kpi-delta delta-good">↑ +440% Jan→Mar</div>
-    </div>
-    <div class="kpi-card kpi-red">
-      <div class="kpi-label">Missed Calls</div>
-      <div class="kpi-value">98</div>
-      <div class="kpi-sub">4.2% miss rate · Low</div>
-      <div class="kpi-delta delta-good">✓ Well managed</div>
-    </div>
-  </div>
-
-  <!-- Classification Legend -->
-  <div class="classif-legend">
-    <div style="font-size:12px;font-weight:700;color:#374151;margin-right:8px;align-self:center">Call Classification:</div>
-    <div class="classif-item"><span style="color:#16a34a;font-size:16px">🟢</span> <span style="color:#166534">NEW LEAD</span> — First-time caller, plumbing inquiry</div>
-    <div class="classif-item"><span style="color:#0048fe;font-size:16px">🔵</span> <span style="color:#1e40af">EXISTING CLIENT</span> — Return caller, known customer</div>
-    <div class="classif-item"><span style="color:#7c3aed;font-size:16px">🟣</span> <span style="color:#5b21b6">VENDOR</span> — Supplier, subcontractor</div>
-    <div class="classif-item"><span style="color:#dc2626;font-size:16px">🔴</span> <span style="color:#991b1b">SPAM</span> — Robocall, solicitation</div>
-    <div class="classif-item"><span style="color:#f99e23;font-size:16px">🟠</span> <span style="color:#9a3412">SHORT</span> — Under 30s, no engagement</div>
-  </div>
-
-  <!-- Call Log Table -->
-  <div class="section-header"><h2>Recent Call Log (Top 20 by Duration)</h2></div>
-  <div class="table-wrap">
-    <table class="call-table">
-      <thead>
-        <tr>
-          <th>#</th><th>Date</th><th>Caller</th><th>Location</th><th>Source</th><th>Duration</th><th>Classification</th><th>Notes</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr><td>1</td><td>Mar 5</td><td>WATSON DELBERTA</td><td>Oklahoma City, OK</td><td>LSA</td><td>20m 03s</td><td><span class="tag tag-green">🟢 NEW LEAD</span></td><td>Long consult — likely commercial/large job</td></tr>
-        <tr><td>2</td><td>Mar 14</td><td>WIRELESS CALLER</td><td>Prescott, AZ</td><td>GBP</td><td>18m 22s</td><td><span class="tag tag-green">🟢 NEW LEAD</span></td><td>Detailed service inquiry from GBP</td></tr>
-        <tr><td>3</td><td>Feb 18</td><td>WIRELESS CALLER</td><td>Prescott, AZ</td><td>Landing/CPC</td><td>14m 07s</td><td><span class="tag tag-green">🟢 NEW LEAD</span></td><td>High-intent PPC call — detailed job discussion</td></tr>
-        <tr><td>4</td><td>Mar 19</td><td>NICHOLSON GARY</td><td>N. Phoenix, AZ</td><td>Directory PV</td><td>12m 27s</td><td><span class="tag tag-green">🟢 NEW LEAD</span></td><td>Directory listing referral — Prescott Valley</td></tr>
-        <tr><td>5</td><td>Feb 27</td><td>WIRELESS CALLER</td><td>Phoenix, AZ</td><td>Google Ads</td><td>12m 05s</td><td><span class="tag tag-green">🟢 NEW LEAD</span></td><td>PMax or Search campaign — Phoenix expansion</td></tr>
-        <tr><td>6</td><td>Jan 30</td><td>W. FIELDS</td><td>Prescott, AZ</td><td>Website-Prescott</td><td>11m 03s</td><td><span class="tag tag-blue">🔵 EXISTING</span></td><td>Return client via website</td></tr>
-        <tr><td>7</td><td>Mar 18</td><td>WHITE MICHELLE</td><td>Phoenix, AZ</td><td>Google Organic</td><td>10m 24s</td><td><span class="tag tag-green">🟢 NEW LEAD</span></td><td>Organic rank driving quality Phoenix calls</td></tr>
-        <tr><td>8</td><td>Feb 25</td><td>BRADT RICHARD</td><td>Phoenix, AZ</td><td>Website-PV</td><td>8m 24s</td><td><span class="tag tag-green">🟢 NEW LEAD</span></td><td>Website-PV tracking — Phoenix area caller</td></tr>
-        <tr><td>9</td><td>Apr 8</td><td>START FRESH</td><td>Arlington Heights, IL</td><td>Direct</td><td>8m 19s</td><td><span class="tag tag-orange">🟠 SHORT</span></td><td>Out-of-state caller — likely wrong number</td></tr>
-        <tr><td>10</td><td>Feb 10</td><td>PITTMAN ANDREW</td><td>Glendale, AZ</td><td>Facebook Organic</td><td>6m 52s</td><td><span class="tag tag-green">🟢 NEW LEAD</span></td><td>Social organic — Facebook referral</td></tr>
-        <tr><td>11</td><td>Mar 22</td><td>WIRELESS CALLER</td><td>Prescott Valley, AZ</td><td>LSA</td><td>6m 14s</td><td><span class="tag tag-green">🟢 NEW LEAD</span></td><td>LSA — PV primary tracker</td></tr>
-        <tr><td>12</td><td>Feb 15</td><td>WIRELESS CALLER</td><td>Flagstaff, AZ</td><td>GBP</td><td>5m 48s</td><td><span class="tag tag-green">🟢 NEW LEAD</span></td><td>GBP Flagstaff — strong local visibility</td></tr>
-        <tr><td>13</td><td>Mar 7</td><td>WIRELESS CALLER</td><td>Gilbert, AZ</td><td>LSA</td><td>5m 33s</td><td><span class="tag tag-green">🟢 NEW LEAD</span></td><td>Gilbert LSA — scaling well</td></tr>
-        <tr><td>14</td><td>Jan 24</td><td>WIRELESS CALLER</td><td>Prescott, AZ</td><td>LSA</td><td>5m 18s</td><td><span class="tag tag-green">🟢 NEW LEAD</span></td><td>Early LSA call — Prescott tracker</td></tr>
-        <tr><td>15</td><td>Feb 20</td><td>WIRELESS CALLER</td><td>Cottonwood, AZ</td><td>GBP</td><td>5m 02s</td><td><span class="tag tag-green">🟢 NEW LEAD</span></td><td>Cottonwood area — GBP catchment</td></tr>
-        <tr><td>16</td><td>Mar 28</td><td>WIRELESS CALLER</td><td>Tempe, AZ</td><td>GBP</td><td>4m 51s</td><td><span class="tag tag-green">🟢 NEW LEAD</span></td><td>Tempe GBP driving calls</td></tr>
-        <tr><td>17</td><td>Apr 12</td><td>WIRELESS CALLER</td><td>Prescott Valley, AZ</td><td>Landing/CPC</td><td>4m 37s</td><td><span class="tag tag-green">🟢 NEW LEAD</span></td><td>PPC landing page — Prescott Valley market</td></tr>
-        <tr><td>18</td><td>Mar 30</td><td>WIRELESS CALLER</td><td>Flagstaff, AZ</td><td>Website-Flagstaff</td><td>4m 22s</td><td><span class="tag tag-green">🟢 NEW LEAD</span></td><td>Website-Flagstaff organic call</td></tr>
-        <tr><td>19</td><td>Feb 8</td><td>WIRELESS CALLER</td><td>Prescott, AZ</td><td>Google Organic</td><td>4m 15s</td><td><span class="tag tag-green">🟢 NEW LEAD</span></td><td>Organic search — Prescott market</td></tr>
-        <tr><td>20</td><td>Mar 5</td><td>WIRELESS CALLER</td><td>Gilbert, AZ</td><td>GBP</td><td>4m 08s</td><td><span class="tag tag-green">🟢 NEW LEAD</span></td><td>GBP Gilbert — strong local visibility</td></tr>
-      </tbody>
-    </table>
-  </div>
-
-  <!-- Source Breakdown -->
-  <div class="section-header"><h2>Call Source Breakdown — Jan–Apr 2026</h2></div>
-  <div class="table-wrap">
-    <table>
-      <thead>
-        <tr>
-          <th>Source / Tracker</th><th>Jan</th><th>Feb</th><th>Mar</th><th>Apr*</th><th>Total</th><th>% Share</th><th>MoM Peak</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr><td><strong>GBP / Google Business Profile</strong></td><td>108</td><td>375</td><td>268</td><td>122</td><td><strong>873</strong></td><td><span class="tag tag-blue">37.0%</span></td><td>Feb: 375</td></tr>
-        <tr><td><strong>LSA — All Locations</strong></td><td>50</td><td>191</td><td>270</td><td>113</td><td><strong>631</strong> <span style="font-size:10px;color:#6b7280">(+ LSA-PV2 included)</span></td><td><span class="tag tag-orange">26.8%</span></td><td>Mar: 270</td></tr>
-        <tr><td>&nbsp;&nbsp;↳ Prescott Valley (primary)</td><td>0</td><td>97</td><td>154</td><td>71</td><td>322</td><td>13.7%</td><td>Mar: 154</td></tr>
-        <tr><td>&nbsp;&nbsp;↳ Prescott</td><td>38</td><td>53</td><td>60</td><td>29</td><td>180</td><td>7.6%</td><td>Mar: 60</td></tr>
-        <tr><td>&nbsp;&nbsp;↳ Gilbert</td><td>6</td><td>30</td><td>38</td><td>8</td><td>82</td><td>3.5%</td><td>Mar: 38</td></tr>
-        <tr><td>&nbsp;&nbsp;↳ LSA-PV2 (secondary)</td><td>0</td><td>73</td><td>7</td><td>0</td><td>80</td><td>3.4%</td><td>Feb: 73</td></tr>
-        <tr><td>&nbsp;&nbsp;↳ Flagstaff</td><td>0</td><td>1</td><td>2</td><td>0</td><td>3</td><td>0.1%</td><td>—</td></tr>
-        <tr><td><strong>Landing Page / CPC</strong></td><td>19</td><td>53</td><td>118</td><td>55</td><td><strong>245</strong></td><td><span class="tag tag-green">10.4%</span></td><td>Mar: 118</td></tr>
-        <tr><td><strong>Direct</strong></td><td>12</td><td>27</td><td>36</td><td>28</td><td><strong>103</strong></td><td>4.4%</td><td>Mar: 36</td></tr>
-        <tr><td><strong>Google Organic</strong></td><td>17</td><td>22</td><td>36</td><td>17</td><td><strong>92</strong></td><td>3.9%</td><td>Mar: 36</td></tr>
-        <tr><td><strong>Google Ads (direct)</strong></td><td>10</td><td>18</td><td>35</td><td>17</td><td><strong>80</strong></td><td>3.4%</td><td>Mar: 35</td></tr>
-        <tr><td><strong>Website-Prescott</strong></td><td>15</td><td>20</td><td>27</td><td>15</td><td><strong>77</strong></td><td>3.3%</td><td>Mar: 27</td></tr>
-        <tr><td><strong>Yelp</strong></td><td>0</td><td>32</td><td>24</td><td>15</td><td><strong>71</strong></td><td>3.0%</td><td>Feb: 32</td></tr>
-        <tr><td><strong>Website-Flagstaff</strong></td><td>10</td><td>16</td><td>18</td><td>10</td><td><strong>54</strong></td><td>2.3%</td><td>Mar: 18</td></tr>
-        <tr><td><strong>Website-PV</strong></td><td>8</td><td>14</td><td>18</td><td>8</td><td><strong>48</strong></td><td>2.0%</td><td>Mar: 18</td></tr>
-        <tr><td><strong>Other / Unknown</strong></td><td>23</td><td>43</td><td>56</td><td>35</td><td><strong>157</strong></td><td>6.7%</td><td>Mar: 56</td></tr>
-        <tr style="background:#f0f4ff;font-weight:700"><td>GRAND TOTAL</td><td>272</td><td>785</td><td>906</td><td>395</td><td>2,358</td><td>100%</td><td>Mar: 906</td></tr>
-      </tbody>
-    </table>
-  </div>
-
-  <!-- Charts Row -->
-  <div class="chart-row-equal">
-    <div class="chart-card">
-      <h3>📈 Calls by Source — Monthly Trend</h3>
-      <div class="chart-wrap"><canvas id="crSourceTrend"></canvas></div>
-    </div>
-    <div class="chart-card">
-      <h3>🥧 Call Volume by Source (Total)</h3>
-      <div class="chart-wrap"><canvas id="crSourcePie"></canvas></div>
-    </div>
-  </div>
-
-  <!-- Key Observations -->
-  <div class="box box-blue">
-    <h3>🔍 Key Observations &amp; Hot Prospects</h3>
-    <ul>
-      <li><strong>GBP dominates at 37%:</strong> 873 Google Business Profile calls — the strongest single channel. Maintaining GBP health and reviews is mission-critical.</li>
-      <li><strong>LSA is the fastest-growing channel:</strong> 50 calls in January → 270 in March (440% growth). Prescott Valley alone generated 154 calls in March — best single-location month.</li>
-      <li><strong>PPC is scaling rapidly:</strong> Landing page + Google Ads calls jumped from 19 (Jan) to 153 (Mar) — a 1,526% ramp. PMAX campaign is likely contributing to the volume growth.</li>
-      <li><strong>Top hot prospect — WATSON DELBERTA:</strong> 20-minute LSA call from Oklahoma City suggests a referral or property owner with major plumbing work. Follow-up recommended.</li>
-      <li><strong>Flagstaff is underperforming LSA:</strong> Only 3 LSA calls despite strong GBP impressions and 54 website calls. Budget allocation to Flagstaff LSA could unlock significant volume.</li>
-      <li><strong>Return callers = 687 (29%):</strong> Nearly 1-in-3 callers are return clients — strong indicator of customer loyalty and repeat business. Excellent for lifetime value optimization.</li>
-    </ul>
-  </div>
-
-  <!-- Analysis Grid -->
-  <div class="analysis-grid">
-    <div class="analysis-card strengths">
-      <h4>✅ CallRail Strengths</h4>
-      <ul>
-        <li>95.8% answer rate — exceptional operational performance across all locations</li>
-        <li>2,358 total calls in just 4 months — high lead volume across channels</li>
-        <li>LSA calls scaled 440% Jan→Mar — best ROI channel by growth rate</li>
-        <li>GBP remains #1 source at 37% — strong organic local presence</li>
-        <li>70.9% new callers — healthy pipeline of fresh prospects</li>
-        <li>Multi-location tracking provides granular attribution data</li>
-      </ul>
-    </div>
-    <div class="analysis-card issues">
-      <h4>⚠️ Issues &amp; Gaps</h4>
-      <ul>
-        <li>98 missed calls (4.2%) — at this volume that's ~24 missed jobs/month</li>
-        <li>Flagstaff LSA only 3 calls — major untapped market with proven GBP demand</li>
-        <li>LSA-PV2 secondary tracker: 73 calls in Feb → only 7 in Mar — unexplained drop; investigate campaign status</li>
-        <li>No Meta/Facebook dedicated tracking number — social ROI unmeasurable</li>
-        <li>Yelp declined from 32 (Feb) to 15 (Apr) — worth monitoring</li>
-        <li>April already 15 missed calls in partial month — may need additional staffing</li>
-      </ul>
-    </div>
-    <div class="analysis-card recs">
-      <h4>🎯 Recommendations</h4>
-      <ul>
-        <li>Add dedicated CallRail tracking number for Meta Ads/Facebook campaigns</li>
-        <li>Activate Flagstaff LSA budget — demand is proven via GBP and website calls (54+)</li>
-        <li>Investigate LSA-PV2 secondary tracker Feb→Mar drop; restore if campaign paused</li>
-        <li>Review missed calls daily — consider after-hours answering service for 4.2% capture</li>
-        <li>Import CallRail conversions directly into Google Ads for automated bid optimization</li>
-        <li>Tag and score return callers to identify high-value recurring customers for outreach</li>
-      </ul>
-    </div>
-  </div>
 
   <!-- ── CALL LOG SUB-TAB ── -->
   <div class="sub-tab-pane" id="gbp-calls">
@@ -4101,6 +3920,190 @@ tbody tr:last-child td{border-bottom:none}
   </div>
   <p style="font-size:11px;color:#9ca3af;margin-top:4px;margin-bottom:24px">Showing top 30 of 122 calls. Sorted by priority (booked → valid lead → existing → inquiry → spam/disconnected). Summaries extracted from CallRail AI notes and transcriptions.</p>
   </div>
+
+</div>
+
+<!-- ═══════════════════════════════════════════════
+     CALLRAIL TAB
+═══════════════════════════════════════════════ -->
+<div class="tab-pane" id="tab-callrail">
+
+  <div class="section-header">
+    <h2>CallRail — Call Tracking &amp; Attribution</h2>
+    <p>All inbound calls · Jan 1 – Apr 20, 2026 · Gold Star Plumbing &amp; Drain</p>
+  </div>
+
+  <!-- KPI Row -->
+  <div class="kpi-row kpi-row-5">
+    <div class="kpi-card kpi-blue">
+      <div class="kpi-label">Total Calls</div>
+      <div class="kpi-value">2,358</div>
+      <div class="kpi-sub">All sources · Jan–Apr 2026</div>
+      <div class="kpi-delta delta-good">↑ +233% vs Jan alone</div>
+    </div>
+    <div class="kpi-card kpi-green">
+      <div class="kpi-label">Answered</div>
+      <div class="kpi-value">2,260</div>
+      <div class="kpi-sub">95.8% answer rate</div>
+      <div class="kpi-delta delta-good">↑ Industry-leading</div>
+    </div>
+    <div class="kpi-card kpi-orange">
+      <div class="kpi-label">New Callers</div>
+      <div class="kpi-value">1,671</div>
+      <div class="kpi-sub">70.9% first-time callers</div>
+      <div class="kpi-delta delta-good">↑ Strong new lead flow</div>
+    </div>
+    <div class="kpi-card kpi-gold">
+      <div class="kpi-label">LSA Calls</div>
+      <div class="kpi-value">631</div>
+      <div class="kpi-sub">26.8% of total · #2 source</div>
+      <div class="kpi-delta delta-good">↑ +440% Jan→Mar</div>
+    </div>
+    <div class="kpi-card kpi-red">
+      <div class="kpi-label">Missed Calls</div>
+      <div class="kpi-value">98</div>
+      <div class="kpi-sub">4.2% miss rate · Low</div>
+      <div class="kpi-delta delta-good">✓ Well managed</div>
+    </div>
+  </div>
+
+  <!-- Classification Legend -->
+  <div class="classif-legend">
+    <div style="font-size:12px;font-weight:700;color:#374151;margin-right:8px;align-self:center">Call Classification:</div>
+    <div class="classif-item"><span style="color:#16a34a;font-size:16px">🟢</span> <span style="color:#166534">NEW LEAD</span> — First-time caller, plumbing inquiry</div>
+    <div class="classif-item"><span style="color:#0048fe;font-size:16px">🔵</span> <span style="color:#1e40af">EXISTING CLIENT</span> — Return caller, known customer</div>
+    <div class="classif-item"><span style="color:#7c3aed;font-size:16px">🟣</span> <span style="color:#5b21b6">VENDOR</span> — Supplier, subcontractor</div>
+    <div class="classif-item"><span style="color:#dc2626;font-size:16px">🔴</span> <span style="color:#991b1b">SPAM</span> — Robocall, solicitation</div>
+    <div class="classif-item"><span style="color:#f99e23;font-size:16px">🟠</span> <span style="color:#9a3412">SHORT</span> — Under 30s, no engagement</div>
+  </div>
+
+  <!-- Call Log Table -->
+  <div class="section-header"><h2>Recent Call Log (Top 20 by Duration)</h2></div>
+  <div class="table-wrap">
+    <table class="call-table">
+      <thead>
+        <tr>
+          <th>#</th><th>Date</th><th>Caller</th><th>Location</th><th>Source</th><th>Duration</th><th>Classification</th><th>Notes</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr><td>1</td><td>Mar 5</td><td>WATSON DELBERTA</td><td>Oklahoma City, OK</td><td>LSA</td><td>20m 03s</td><td><span class="tag tag-green">🟢 NEW LEAD</span></td><td>Long consult — likely commercial/large job</td></tr>
+        <tr><td>2</td><td>Mar 14</td><td>WIRELESS CALLER</td><td>Prescott, AZ</td><td>GBP</td><td>18m 22s</td><td><span class="tag tag-green">🟢 NEW LEAD</span></td><td>Detailed service inquiry from GBP</td></tr>
+        <tr><td>3</td><td>Feb 18</td><td>WIRELESS CALLER</td><td>Prescott, AZ</td><td>Landing/CPC</td><td>14m 07s</td><td><span class="tag tag-green">🟢 NEW LEAD</span></td><td>High-intent PPC call — detailed job discussion</td></tr>
+        <tr><td>4</td><td>Mar 19</td><td>NICHOLSON GARY</td><td>N. Phoenix, AZ</td><td>Directory PV</td><td>12m 27s</td><td><span class="tag tag-green">🟢 NEW LEAD</span></td><td>Directory listing referral — Prescott Valley</td></tr>
+        <tr><td>5</td><td>Feb 27</td><td>WIRELESS CALLER</td><td>Phoenix, AZ</td><td>Google Ads</td><td>12m 05s</td><td><span class="tag tag-green">🟢 NEW LEAD</span></td><td>PMax or Search campaign — Phoenix expansion</td></tr>
+        <tr><td>6</td><td>Jan 30</td><td>W. FIELDS</td><td>Prescott, AZ</td><td>Website-Prescott</td><td>11m 03s</td><td><span class="tag tag-blue">🔵 EXISTING</span></td><td>Return client via website</td></tr>
+        <tr><td>7</td><td>Mar 18</td><td>WHITE MICHELLE</td><td>Phoenix, AZ</td><td>Google Organic</td><td>10m 24s</td><td><span class="tag tag-green">🟢 NEW LEAD</span></td><td>Organic rank driving quality Phoenix calls</td></tr>
+        <tr><td>8</td><td>Feb 25</td><td>BRADT RICHARD</td><td>Phoenix, AZ</td><td>Website-PV</td><td>8m 24s</td><td><span class="tag tag-green">🟢 NEW LEAD</span></td><td>Website-PV tracking — Phoenix area caller</td></tr>
+        <tr><td>9</td><td>Apr 8</td><td>START FRESH</td><td>Arlington Heights, IL</td><td>Direct</td><td>8m 19s</td><td><span class="tag tag-orange">🟠 SHORT</span></td><td>Out-of-state caller — likely wrong number</td></tr>
+        <tr><td>10</td><td>Feb 10</td><td>PITTMAN ANDREW</td><td>Glendale, AZ</td><td>Facebook Organic</td><td>6m 52s</td><td><span class="tag tag-green">🟢 NEW LEAD</span></td><td>Social organic — Facebook referral</td></tr>
+        <tr><td>11</td><td>Mar 22</td><td>WIRELESS CALLER</td><td>Prescott Valley, AZ</td><td>LSA</td><td>6m 14s</td><td><span class="tag tag-green">🟢 NEW LEAD</span></td><td>LSA — PV primary tracker</td></tr>
+        <tr><td>12</td><td>Feb 15</td><td>WIRELESS CALLER</td><td>Flagstaff, AZ</td><td>GBP</td><td>5m 48s</td><td><span class="tag tag-green">🟢 NEW LEAD</span></td><td>GBP Flagstaff — strong local visibility</td></tr>
+        <tr><td>13</td><td>Mar 7</td><td>WIRELESS CALLER</td><td>Gilbert, AZ</td><td>LSA</td><td>5m 33s</td><td><span class="tag tag-green">🟢 NEW LEAD</span></td><td>Gilbert LSA — scaling well</td></tr>
+        <tr><td>14</td><td>Jan 24</td><td>WIRELESS CALLER</td><td>Prescott, AZ</td><td>LSA</td><td>5m 18s</td><td><span class="tag tag-green">🟢 NEW LEAD</span></td><td>Early LSA call — Prescott tracker</td></tr>
+        <tr><td>15</td><td>Feb 20</td><td>WIRELESS CALLER</td><td>Cottonwood, AZ</td><td>GBP</td><td>5m 02s</td><td><span class="tag tag-green">🟢 NEW LEAD</span></td><td>Cottonwood area — GBP catchment</td></tr>
+        <tr><td>16</td><td>Mar 28</td><td>WIRELESS CALLER</td><td>Tempe, AZ</td><td>GBP</td><td>4m 51s</td><td><span class="tag tag-green">🟢 NEW LEAD</span></td><td>Tempe GBP driving calls</td></tr>
+        <tr><td>17</td><td>Apr 12</td><td>WIRELESS CALLER</td><td>Prescott Valley, AZ</td><td>Landing/CPC</td><td>4m 37s</td><td><span class="tag tag-green">🟢 NEW LEAD</span></td><td>PPC landing page — Prescott Valley market</td></tr>
+        <tr><td>18</td><td>Mar 30</td><td>WIRELESS CALLER</td><td>Flagstaff, AZ</td><td>Website-Flagstaff</td><td>4m 22s</td><td><span class="tag tag-green">🟢 NEW LEAD</span></td><td>Website-Flagstaff organic call</td></tr>
+        <tr><td>19</td><td>Feb 8</td><td>WIRELESS CALLER</td><td>Prescott, AZ</td><td>Google Organic</td><td>4m 15s</td><td><span class="tag tag-green">🟢 NEW LEAD</span></td><td>Organic search — Prescott market</td></tr>
+        <tr><td>20</td><td>Mar 5</td><td>WIRELESS CALLER</td><td>Gilbert, AZ</td><td>GBP</td><td>4m 08s</td><td><span class="tag tag-green">🟢 NEW LEAD</span></td><td>GBP Gilbert — strong local visibility</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <!-- Source Breakdown -->
+  <div class="section-header"><h2>Call Source Breakdown — Jan–Apr 2026</h2></div>
+  <div class="table-wrap">
+    <table>
+      <thead>
+        <tr>
+          <th>Source / Tracker</th><th>Jan</th><th>Feb</th><th>Mar</th><th>Apr*</th><th>Total</th><th>% Share</th><th>MoM Peak</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr><td><strong>GBP / Google Business Profile</strong></td><td>108</td><td>375</td><td>268</td><td>122</td><td><strong>873</strong></td><td><span class="tag tag-blue">37.0%</span></td><td>Feb: 375</td></tr>
+        <tr><td><strong>LSA — All Locations</strong></td><td>50</td><td>191</td><td>270</td><td>113</td><td><strong>631</strong> <span style="font-size:10px;color:#6b7280">(+ LSA-PV2 included)</span></td><td><span class="tag tag-orange">26.8%</span></td><td>Mar: 270</td></tr>
+        <tr><td>&nbsp;&nbsp;↳ Prescott Valley (primary)</td><td>0</td><td>97</td><td>154</td><td>71</td><td>322</td><td>13.7%</td><td>Mar: 154</td></tr>
+        <tr><td>&nbsp;&nbsp;↳ Prescott</td><td>38</td><td>53</td><td>60</td><td>29</td><td>180</td><td>7.6%</td><td>Mar: 60</td></tr>
+        <tr><td>&nbsp;&nbsp;↳ Gilbert</td><td>6</td><td>30</td><td>38</td><td>8</td><td>82</td><td>3.5%</td><td>Mar: 38</td></tr>
+        <tr><td>&nbsp;&nbsp;↳ LSA-PV2 (secondary)</td><td>0</td><td>73</td><td>7</td><td>0</td><td>80</td><td>3.4%</td><td>Feb: 73</td></tr>
+        <tr><td>&nbsp;&nbsp;↳ Flagstaff</td><td>0</td><td>1</td><td>2</td><td>0</td><td>3</td><td>0.1%</td><td>—</td></tr>
+        <tr><td><strong>Landing Page / CPC</strong></td><td>19</td><td>53</td><td>118</td><td>55</td><td><strong>245</strong></td><td><span class="tag tag-green">10.4%</span></td><td>Mar: 118</td></tr>
+        <tr><td><strong>Direct</strong></td><td>12</td><td>27</td><td>36</td><td>28</td><td><strong>103</strong></td><td>4.4%</td><td>Mar: 36</td></tr>
+        <tr><td><strong>Google Organic</strong></td><td>17</td><td>22</td><td>36</td><td>17</td><td><strong>92</strong></td><td>3.9%</td><td>Mar: 36</td></tr>
+        <tr><td><strong>Google Ads (direct)</strong></td><td>10</td><td>18</td><td>35</td><td>17</td><td><strong>80</strong></td><td>3.4%</td><td>Mar: 35</td></tr>
+        <tr><td><strong>Website-Prescott</strong></td><td>15</td><td>20</td><td>27</td><td>15</td><td><strong>77</strong></td><td>3.3%</td><td>Mar: 27</td></tr>
+        <tr><td><strong>Yelp</strong></td><td>0</td><td>32</td><td>24</td><td>15</td><td><strong>71</strong></td><td>3.0%</td><td>Feb: 32</td></tr>
+        <tr><td><strong>Website-Flagstaff</strong></td><td>10</td><td>16</td><td>18</td><td>10</td><td><strong>54</strong></td><td>2.3%</td><td>Mar: 18</td></tr>
+        <tr><td><strong>Website-PV</strong></td><td>8</td><td>14</td><td>18</td><td>8</td><td><strong>48</strong></td><td>2.0%</td><td>Mar: 18</td></tr>
+        <tr><td><strong>Other / Unknown</strong></td><td>23</td><td>43</td><td>56</td><td>35</td><td><strong>157</strong></td><td>6.7%</td><td>Mar: 56</td></tr>
+        <tr style="background:#f0f4ff;font-weight:700"><td>GRAND TOTAL</td><td>272</td><td>785</td><td>906</td><td>395</td><td>2,358</td><td>100%</td><td>Mar: 906</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <!-- Charts Row -->
+  <div class="chart-row-equal">
+    <div class="chart-card">
+      <h3>📈 Calls by Source — Monthly Trend</h3>
+      <div class="chart-wrap"><canvas id="crSourceTrend"></canvas></div>
+    </div>
+    <div class="chart-card">
+      <h3>🥧 Call Volume by Source (Total)</h3>
+      <div class="chart-wrap"><canvas id="crSourcePie"></canvas></div>
+    </div>
+  </div>
+
+  <!-- Key Observations -->
+  <div class="box box-blue">
+    <h3>🔍 Key Observations &amp; Hot Prospects</h3>
+    <ul>
+      <li><strong>GBP dominates at 37%:</strong> 873 Google Business Profile calls — the strongest single channel. Maintaining GBP health and reviews is mission-critical.</li>
+      <li><strong>LSA is the fastest-growing channel:</strong> 50 calls in January → 270 in March (440% growth). Prescott Valley alone generated 154 calls in March — best single-location month.</li>
+      <li><strong>PPC is scaling rapidly:</strong> Landing page + Google Ads calls jumped from 19 (Jan) to 153 (Mar) — a 1,526% ramp. PMAX campaign is likely contributing to the volume growth.</li>
+      <li><strong>Top hot prospect — WATSON DELBERTA:</strong> 20-minute LSA call from Oklahoma City suggests a referral or property owner with major plumbing work. Follow-up recommended.</li>
+      <li><strong>Flagstaff is underperforming LSA:</strong> Only 3 LSA calls despite strong GBP impressions and 54 website calls. Budget allocation to Flagstaff LSA could unlock significant volume.</li>
+      <li><strong>Return callers = 687 (29%):</strong> Nearly 1-in-3 callers are return clients — strong indicator of customer loyalty and repeat business. Excellent for lifetime value optimization.</li>
+    </ul>
+  </div>
+
+  <!-- Analysis Grid -->
+  <div class="analysis-grid">
+    <div class="analysis-card strengths">
+      <h4>✅ CallRail Strengths</h4>
+      <ul>
+        <li>95.8% answer rate — exceptional operational performance across all locations</li>
+        <li>2,358 total calls in just 4 months — high lead volume across channels</li>
+        <li>LSA calls scaled 440% Jan→Mar — best ROI channel by growth rate</li>
+        <li>GBP remains #1 source at 37% — strong organic local presence</li>
+        <li>70.9% new callers — healthy pipeline of fresh prospects</li>
+        <li>Multi-location tracking provides granular attribution data</li>
+      </ul>
+    </div>
+    <div class="analysis-card issues">
+      <h4>⚠️ Issues &amp; Gaps</h4>
+      <ul>
+        <li>98 missed calls (4.2%) — at this volume that's ~24 missed jobs/month</li>
+        <li>Flagstaff LSA only 3 calls — major untapped market with proven GBP demand</li>
+        <li>LSA-PV2 secondary tracker: 73 calls in Feb → only 7 in Mar — unexplained drop; investigate campaign status</li>
+        <li>No Meta/Facebook dedicated tracking number — social ROI unmeasurable</li>
+        <li>Yelp declined from 32 (Feb) to 15 (Apr) — worth monitoring</li>
+        <li>April already 15 missed calls in partial month — may need additional staffing</li>
+      </ul>
+    </div>
+    <div class="analysis-card recs">
+      <h4>🎯 Recommendations</h4>
+      <ul>
+        <li>Add dedicated CallRail tracking number for Meta Ads/Facebook campaigns</li>
+        <li>Activate Flagstaff LSA budget — demand is proven via GBP and website calls (54+)</li>
+        <li>Investigate LSA-PV2 secondary tracker Feb→Mar drop; restore if campaign paused</li>
+        <li>Review missed calls daily — consider after-hours answering service for 4.2% capture</li>
+        <li>Import CallRail conversions directly into Google Ads for automated bid optimization</li>
+        <li>Tag and score return callers to identify high-value recurring customers for outreach</li>
+      </ul>
+    </div>
+  </div>
+
 
 </div>
 
